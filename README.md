@@ -1,0 +1,2 @@
+# Website-Admin-Panel-Finder
+BU BİR TESTTİR KÖTÜYE KULLANIMDAN SORUMLU DEĞİLİM
