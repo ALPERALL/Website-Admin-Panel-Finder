@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: UTF-8 -*-
+# -*- ALPERALL TARAFINDAN YAPILDI -*-
 
 from urllib2 import Request, urlopen, URLError, HTTPError
 
@@ -31,9 +31,9 @@ def findAdmin():
 
 def Credit():
 	Space(9); print "#####################################"
-	Space(9); print "#   <<< Admin Panel retriever >>>   #"
-	Space(9); print "#        coded by MR.ROGUE          #"
-	Space(9); print "# instagram:cyber.security.unlocked #"
+	Space(9); print "#   <<<  Admin Panel Bulucu   >>>   #"
+	Space(9); print "#        coded by Alperall          #"
+	Space(9); print "#       instagram:alper_all         #"
 	Space(9); print "#####################################"
 
 Credit()
