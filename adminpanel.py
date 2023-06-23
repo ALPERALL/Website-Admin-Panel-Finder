@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: UTF-8 -*-
+# -*- coder: ALPERALL -*-
 
 from urllib2 import Request, urlopen, URLError, HTTPError
 
