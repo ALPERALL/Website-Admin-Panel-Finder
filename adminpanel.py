@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- ALPERALL TARAFINDAN YAPILDI -*-
+# -*- coding: UTF-8 -*-
 
 from urllib2 import Request, urlopen, URLError, HTTPError
 
@@ -12,7 +12,7 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("Site bağlantısını giriniz \n(ör : örneksite.com or www.örneksite.com ): ")
+	link = raw_input("Enter Site Name \n(ex : example.com or www.example.com ): ")
 	print "\n\nAvilable links : \n"
 	while True:
 		sub_link = f.readline()
