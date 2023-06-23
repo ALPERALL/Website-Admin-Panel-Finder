@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- Coded By ALPERALL -*-
+# -*- coding: UTF-8 -*-
 
 from urllib2 import Request, urlopen, URLError, HTTPError
 
@@ -12,7 +12,7 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("Site adresini giriniz \n(ör.: örneksite.com yada www.örneksite.com ): ")
+	link = raw_input("Enter Site Name \n(ex : example.com or www.example.com ): ")
 	print "\n\nAvilable links : \n"
 	while True:
 		sub_link = f.readline()
@@ -27,13 +27,13 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print "AKTİF => ",req_link
+			print "OK => ",req_link
 
 def Credit():
 	Space(9); print "#####################################"
-	Space(9); print "#   <<<   Admin Panel Bulucu  >>>   #"
-	Space(9); print "#        Alperall tarafından kodlandı          #"
-	Space(9); print "# instagram:alper_all               #"
+	Space(9); print "#   <<< Admin Panel retriever >>>   #"
+	Space(9); print "#        coded by MR.ROGUE          #"
+	Space(9); print "# instagram:cyber.security.unlocked #"
 	Space(9); print "#####################################"
 
 Credit()
