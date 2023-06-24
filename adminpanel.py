@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
 from urllib2 import Request, urlopen, URLError, HTTPError
 
 def Space(j):
