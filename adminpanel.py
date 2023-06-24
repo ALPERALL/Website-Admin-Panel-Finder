@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coder: ALPERALL -*-
-
 from urllib2 import Request, urlopen, URLError, HTTPError
 
 def Space(j):
