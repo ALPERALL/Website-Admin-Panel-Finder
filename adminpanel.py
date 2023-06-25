@@ -31,9 +31,9 @@ def findAdmin():
 
 def Credit():
 	Space(9); print "▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄"
-	Space(9); print "▄▀      >>>Admin Panel Bulucu<<<     ▀▄"
-	Space(9); print "▄▀        coded by Alperall          ▀▄"
-	Space(9); print "▄▀       discord:alper_all           ▀▄"
+	Space(9); print "▄▀      >>>Admin Panel Bulucu<<<   ▀▄"
+	Space(9); print "▄▀        coded by Alperall        ▀▄"
+	Space(9); print "▄▀       discord:alper_all         ▀▄"
 	Space(9); print "▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀"
 
 Credit()
